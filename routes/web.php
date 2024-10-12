@@ -52,3 +52,27 @@ Route::get('/contact', function () {
     ];
     return view('home.layout.wrapper', $data);
 });
+
+Route::get('/login', function () {
+    //return view('home.index');
+    $data = [
+        'content' => 'auth/login'
+    ];
+    return view('home.layout.wrapper', $data);
+});
+
+Route::get('/csingle', function () {
+    //return view('home.index');
+    $data = [
+        'content' => 'home/courses/csingle'
+    ];
+    return view('home.layout.wrapper', $data);
+});
+
+Route::get('/register', function () {
+    //return view('home.index');
+    $data = [
+        'content' => 'auth/register'
+    ];
+    return view('home.layout.wrapper', $data);
+});

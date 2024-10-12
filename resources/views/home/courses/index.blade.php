@@ -215,7 +215,7 @@
                                 </div>
                                 <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique
                                     accusantium ipsam.</p>
-                                <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Enroll In This
+                                <p><a href="/csingle" class="btn btn-primary rounded-0 px-4 {{ Request::is('/csingle') ? 'menu-active' : '' }}">Enroll In This
                                         Course</a></p>
                             </div>
                         </div>
